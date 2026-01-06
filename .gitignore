@@ -1,0 +1,12 @@
+# Ignore all raw data
+data/
+
+# Ignore processed CSVs 
+outputs/*.csv
+
+# allows the final chart
+!outputs/*.png
+
+# System files
+__pycache__/
+.DS_Store
