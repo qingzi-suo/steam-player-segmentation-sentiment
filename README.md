@@ -7,7 +7,7 @@ It is stereotypical to say that high-value gamers are more demanding and critica
 
 ---
 
-### Data Source:
+### Data Source
 This project uses the **Gaming Profiles 2025** dataset on Kaggle. The dataset contains 103k players’ purchase history and 1.2 million reviews of different games from October, 2010 to January, 2025. 
 
 * **Source:** [Kaggle - Gaming Profiles 2025 (Steam)](https://www.kaggle.com/datasets/artyomkruglov/gaming-profiles-2025-steam-playstation-xbox/data?select=steam)
@@ -15,7 +15,7 @@ This project uses the **Gaming Profiles 2025** dataset on Kaggle. The dataset co
 
 ---
 
-Key Engineering Decisions
+### Key Engineering Decisions
 **A change of metric for player’s value assessment:** Initially, “total spending on game purchases” was the metric for segmentation of players. However, due to data sparsity issues in the raw price data, this approach was infeasible. Thus, “how many games a player bought” was used instead to determine a player’s commercial value and experience level. 
 
 ---
